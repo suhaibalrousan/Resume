@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+header img {
+    width: 150px; /* Adjust the width as needed */
+    border-radius: 50%; /* Makes the image round */
+    border: 5px solid #fff; /* Adds a white border around the image */
+    margin-bottom: 10px; /* Adds some space between the image and the name */
+}
+header h1 {
+    margin: 0;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+article {
+    flex: 1;
+    padding: 0 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
